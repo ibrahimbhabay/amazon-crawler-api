@@ -1,0 +1,33 @@
+{
+  "name": "crawler-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimbhabay/crawler-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimbhabay/crawler-api/issues"
+  },
+  "homepage": "https://github.com/ibrahimbhabay/crawler-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4",
+    "@typegoose/typegoose": "9.13.2",
+    "mongoose": "6.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18"
+  }
+}
