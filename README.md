@@ -5,7 +5,7 @@
 - install mongodb locally -> https://www.mongodb.com/docs/v4.4/tutorial/install-mongodb-on-os-x/
 - run mongodb as service (MacOS)-> brew services start mongodb-community@4.4  OR  brew services start  mongodb/brew/mongodb-community@4.4
 - start the api service -> npm run start
-- .env file is attached. It has configuration details.
+- .env file is attached. It has config details
 
 ## Endpoints
 - Healthcheck
