@@ -10,6 +10,7 @@ export const fetchAllProducts = async () : Promise<ProductDto[]> => {
     return await browse();
 }
 
+// Info: sort product by title
 export const sortProductsByTitle = (productList: ProductDto[], mode: SortMode = 'asc') : ProductDto[] => {
     console.log(`sort mode: ${mode}`);
     let sortedProductList: ProductDto[] = [];
