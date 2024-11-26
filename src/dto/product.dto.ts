@@ -1,3 +1,4 @@
+//Info: DTO for products
 export class ProductDto {
     _id?: string;
     title: string;
